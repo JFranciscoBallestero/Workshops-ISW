@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.btn{
+    background: #2cd2fc;
+	background-color:#2cd2fc;
+	border-radius:18px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+
+
+.image{
+    flex-shrink: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img1{
+    width: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.img2{
+    width: 46%;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
+
+.align{
+    margin-left: 270px;
+    margin-right: 50px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.background{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-image:url(https://r4.wallpaperflare.com/wallpaper/124/173/271/shrek-3d-hd-wallpaper-5846dd48e0906cf8c01cc16ed8b224ca.jpg?timestamp=1666034493309);
+    background-size: 100%;
+    height: 350px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first{
+    text-align:left;
+    text-justify: auto;
+    width:350px;
+    height:100px;
+    float:left;
+    color:rgb(252, 252, 252);
+    margin-right: 100px;
+    margin-left: 500px;
+}
+
+.second{
+    text-align:center;
+    text-justify: auto;
+    width:350px;
+    height:100px;
+    float:left;
+    color:rgb(252, 252, 252);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.third{
+    text-align:right;
+    text-justify: auto;
+    width:350px;
+    height:100px;
+    float:left;
+    color:rgb(252, 252, 252);
+    margin-left: 100px;
+    margin-right: 500px;
+}
